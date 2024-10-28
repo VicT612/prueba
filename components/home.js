@@ -1,6 +1,7 @@
-import { StyleSheet, Text, View, Pressable } from 'react-native';
+import { StyleSheet, Text, View, Pressable, FlatList } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { LinearGradient } from 'expo-linear-gradient';
+import {Text, Card, Button, Icon} from '@rneui/themed';
 
 export default function Home() {
   const navigation = useNavigation();
@@ -9,8 +10,12 @@ export default function Home() {
       <LinearGradient
         colors={['#0B0A4C', '#4B169D']}
         style={styles.fondo}>
+          <Text style={styles.titulo}>ELIGE UNA ACTIVIDAD</Text>
+          <FlatList>
 
-          <Text style={styles.titulo}>EDUPLAY </Text>
+          </FlatList>
+
+
       </LinearGradient>
     </View>
   );
