@@ -9,27 +9,27 @@ export default function Home() {
   const datos=[
     {
       titulo: 'NUMEROS',
-      imagen: require('../assets/images/cards.jpg'),
+      imagen: require('../assets/images/cards/cards.jpg'),
       routeName: 'JuegoNumeros',
     },
     {
       titulo: 'VOCALES',
-      imagen: require('../assets/images/cards2.jpg'),
+      imagen: require('../assets/images/cards/cards2.jpg'),
       routeName: 'JuegoVocales',
     },
     {
       titulo: 'ANIMALES',
-      imagen: require('../assets/images/cards.jpg'),
+      imagen: require('../assets/images/cards/cards2.jpg'),
       routeName: 'JuegoAnimales',
     },
     {
       titulo: 'COLORES',
-      imagen: require('../assets/images/cards.jpg'),
+      imagen: require('../assets/images/cards/cards2.jpg'),
       routeName: 'JuegoColores',
     },
     {
       titulo: 'FIGURAS',
-      imagen: require('../assets/images/cards.jpg'),
+      imagen: require('../assets/images/cards/cards.jpg'),
       routeName: 'JuegoFiguras', 
     }
   ];
